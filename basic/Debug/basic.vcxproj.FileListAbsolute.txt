@@ -1,2 +1,0 @@
-C:\Users\Minsu\source\basic\c_cpp_practice\basic\Debug\basic.exe
-C:\Users\Minsu\source\basic\c_cpp_practice\basic\Debug\basic.pdb
