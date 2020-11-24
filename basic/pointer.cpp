@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+int Pointer() {
 	int* p;
 	int a;
 
