@@ -12,7 +12,7 @@
 
 #include <iostream>
 
-int practice4(void) {
+int main(void) {
 	while (1) {
 		int val1;
 		std::cout << "판매 금액을 만원 단위로 입력(-1 to end) : " ;
