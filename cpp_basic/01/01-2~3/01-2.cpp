@@ -28,4 +28,5 @@ int basic() {
 	double db1 = 1.2211, db2 = 5.5555;
 	swap(&db1, &db2);
 	std::cout << db1 << ' ' << db2 << std::endl;
+	return 0;
 }
