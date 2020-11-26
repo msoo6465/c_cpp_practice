@@ -12,7 +12,7 @@ int BoxVolume(int length) {
 int BoxVolume(void) {
 	return 1 * 1 * 1;
 }
-int main() {
+int practice1() {
 	std::cout<< "[3, 3, 3] : " << BoxVolume(3, 3, 3) << std::endl;
 	std::cout << "[5, 5, D] : " << BoxVolume(5, 5) << std::endl;
 	std::cout << "[7, D, D] : " << BoxVolume(7) << std::endl;
