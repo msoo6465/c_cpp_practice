@@ -21,7 +21,7 @@ typedef struct {
 Acount accArr[100];
 int accNum = 0;
 
-int main(void) {
+int main_oop(void) {
 	int input;
 	while (1) {
 		menu();
