@@ -15,7 +15,7 @@ int& RefRetFuncTwo(int& ref) {
 	return n;
 }
 
-int main(void) {
+int ReRefRetFunc2(void) {
 	int num1 = 1;
 	int& num2 = RefRetFuncTwo(num1);
 
