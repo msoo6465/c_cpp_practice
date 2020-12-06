@@ -41,7 +41,7 @@ void Break(Car& car) {
 	car.curSpeed -= BRK_STEP;
 }
 
-int main(void) {
+int structure1(void) {
 	Car run99 = { "run99",100,0 };
 	Accel(run99);
 	Accel(run99);
