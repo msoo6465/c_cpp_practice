@@ -58,7 +58,7 @@ void Car::Break() {
 	curSpeed -= CAR_CONST::BRK_STEP;
 }
 
-int main(void) {
+int racingcarouterfunc(void) {
 	Car run99 = { "run99",100,0 };
 	run99.Accel();
 	run99.Accel();
