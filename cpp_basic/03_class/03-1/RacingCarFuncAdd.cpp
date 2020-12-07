@@ -7,7 +7,7 @@ using namespace std;
 #define ACC_STEP 10
 #define BRK_STEP 10
 
-struct Car {
+struct Car_ {
 	char gamerID[ID_LEN];	//소유자ID
 	int fuelGauge;			//연료량
 	int curSpeed;			//현재속도
@@ -44,14 +44,14 @@ struct Car {
 
 
 int structure2(void) {
-	Car run99 = { "run99",100,0 };
+	Car_ run99 = { "run99",100,0 };
 	run99.Accel();
 	run99.Accel();
 	run99.ShowCarState();
 	run99.Break();
 	run99.ShowCarState();
 
-	Car sped77 = { "sped77",100,0 };
+	Car_ sped77 = { "sped77",100,0 };
 	sped77.Accel();
 	sped77.Break();
 	sped77.ShowCarState();
