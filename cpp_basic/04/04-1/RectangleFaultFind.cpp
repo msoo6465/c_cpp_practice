@@ -3,7 +3,7 @@
 #include "Rectangle.h"
 using namespace std;
 
-int main(void) {
+int recFindMain(void) {
 	Point pos1;
 	if (!pos1.InitMembers(-2, 4))
 		cout << "초기화 실패" << endl;
